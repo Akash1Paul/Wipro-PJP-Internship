@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h3  style="text-align: center ;font-family:serif;font-weight: 500">Registration Form</h3>
+        <div  align="center">
+        <table>
+            <tr style="height: 30px">
+                <td style="width: 100px">User Id :</td>
+                <td><input type="text" id="userID"></td>
+            </tr>
+             <tr style="height: 30px">
+                <td style="width: 100px">Password :</td>
+                <td><input type="password" id="passwd"></td>
+            </tr>
+             <tr style="height: 30px">
+                <td style="width: 100px">Date Of birth:</td>
+                <td><input type="date" id="dob"></td>
+            </tr>
+            <tr style="height: 30px">
+                <td style="width:100 px">Gender:</td>
+                
+                <td><input type="radio"  name="gender" value="M">Male
+               <input type="radio"  name="gender" value="M">Female</td>
+            </tr>
+              <tr style="height: 30px">
+                <td style="width: 100px">State:</td>
+                <td><select name="profession">
+                     <option value="mr">Maharastra</option>
+                    <option value="kn">Karnataka</option>
+                    <option value="mh">Madhya Pradesh</option>
+                    <option value="mh">West Bengal</option>
+                    </select></td>
+            </tr>
+            <tr style="height: 30px">
+                <td style="width: 111px">Contact Number:</td>
+                <td><input type="number" id="contact" /></td>
+            </tr>
+            <tr style="height: 30px">
+                <td style="width: 100px">Address:</td>
+                <td><textarea name="address" cols="30" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>
+                <input type="submit" value="submit" /> 
+                </td>
+                <td>
+                <input type="reset" value="reset" />
+                </td>
+            </tr>
+        </table>
+        </div>
+        <script src="validate.js"></script>
+    </body>
+</html>

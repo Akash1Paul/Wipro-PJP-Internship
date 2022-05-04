@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Table</title>
+
+</head>
+
+<body>
+    <style>
+			table{
+				margin: 10% 40%;
+				
+				width: 50%;
+				border-spacing: 0px;
+				align: center;
+				display: inline-block;
+			}
+			th{
+				border-bottom: Solid 2px black;
+
+			}
+			td{
+				border: Solid 2px black;
+				border-top: 0px;
+				border-bottom: 0px;
+				padding: 7px 10px;
+			}
+			td#t01{
+				padding:7px 20%;
+				border-bottom: Solid 2px black;
+			}
+			input[type=text]{
+			  width: 100%;
+			}
+			input[type=submit]{
+			  width: 100%;
+			}
+			input[type=reset]{
+			  width: 100%;
+			}
+
+			select{
+			  width: 100%;
+			}
+		</style>
+ 
+	<table>
+        <tr><th>Visitor Information</th></tr>
+        <tr>
+            <td>
+                <from>
+                    Email Address : <input type="text" name="email" placeholder="xyz@mail.com" required/>
+                    <br><br>
+                    User's Interest : 
+                        <input type = "checkbox" name="Users Interest" value="reserch">Research
+                    
+                         <input type = "checkbox" name="Users Interest" value="purchase">Purchase
+                    <br><br>
+                    Occupation : 
+                        <select name="occupation">
+                    <option value="">Select One</option>
+                    </select>
+                     <br><br>
+                    Want us to send you junk mail :<br>
+                    <input type="radio" name="junk mail" value="yes">Absolutely
+                    
+                    <input type="radio"name = "junk mail" value="no">No Way Man
+                    <br><br>
+                    <tr>
+                        <td id = "t01">
+                            <input type="submit" value="Submit" align = "center">
+                             <input type="reset" value="Reset" align = "center">
+                        </td>
+                        
+                    </tr>    
+                </from>
+            
+            </td>
+        </tr>
+    </table>
+	
+</body>
+
+</html>
